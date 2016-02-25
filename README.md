@@ -1,24 +1,34 @@
-##Velocity 1.2.1
+##Velocity 1.2.3
 
 **Docs**  
 [VelocityJS.org](http://VelocityJS.org)
 
+**News**  
+You can order the Velocity book on [Amazon](http://amazon.com/Web-Animation-using-JavaScript-Develop/dp/0134096665)!
+
+WhatsApp, Tumblr, Windows, Samsung, Uber, and thousands of other companies rely on Velocity. Visit [Libscore.com](http://libscore.com/#$.Velocity) to see which sites use Velocity on their homepage.
+
+**React Plugin**  
+Announcement: https://fabric.io/blog/introducing-the-velocityreact-library  
+Repo: https://github.com/twitter-fabric/velocity-react  
+NPM: https://www.npmjs.com/package/velocity-react
+
 **Quickstart**  
+Velocity (CDN):
+`<script src="//cdn.jsdelivr.net/velocity/1.2.3/velocity.min.js"></script>`  
+Velocity UI pack (CDN):
+`<script src="//cdn.jsdelivr.net/velocity/1.2.3/velocity.ui.min.js"></script>`  
+Package managers:
+`npm install velocity-animate` / 
+`bower install velocity`
 
-Velocity (CDN):  
-`<script src="//cdn.jsdelivr.net/velocity/1.2.1/velocity.min.js"></script>`
-
-Velocity UI pack (CDN):  
-`<script src="//cdn.jsdelivr.net/velocity/1.2.1/velocity.ui.min.js"></script>`
-
-Package managers:  
-`bower install velocity`  
-`npm install velocity-animate`  
+**Questions or Problems?**  
+Ask on [StackOverflow](http://stackoverflow.com/tags/velocity.js) (make sure you add the ```velocity.js``` and ```javascript``` tags).
 
 ###**Updates**
 
 - **1.2.0**: [Custom tweens](http://VelocityJS.org/#progress). [Custom easings](http://VelocityJS.org/#easing). ["Finish" command](http://VelocityJS.org/#finish). See [commit log](https://github.com/julianshapiro/velocity/commit/2a28e3812c6fe9262244ed3b6d41d12ae9a107c6) for more.
-- **1.0.0**: File name changed to `velocity.js`. Read [VelocityJS.org/#dependencies](http://VelocityJS.org/#dependencies). 
+- **1.0.0**: File name changed to `velocity.js`. Read [VelocityJS.org/#dependencies](http://VelocityJS.org/#dependencies).
 - **0.1.0**: `stop` now stops animations *immediately* (instead of only clearing the remainder of the animation queue). No other backwards-incompatible changes were made.
 
 ###**Learn**
@@ -34,10 +44,7 @@ Package managers:
 - **jQuery's $.animate()** is slow and poorly-equipped for motion design.
 - **Velocity** is a fast, feature-rich standalone alternative to jQuery's $.animate().
 
-###**Users**
-[tumblr.com](http://tumblr.com) [scribd.com](http://scribd.com) [gap.com](http://gap.com) [complex.com](http://complex.com) [orbitz.com](http://orbitz.com) [htc.com](http://htc.com) [eater.com](http://eater.com) [seatgeek.com](http://seatgeek.com) [warbyparker.com](http://warbyparker.com) [oldnavy.com](http://oldnavy.com) [trove.com](http://trove.com) [saucelabs.com](http://saucelabs.com) [diy.org](http://diy.org) [siftscience.com](http://siftscience.com) [dropcam.com](http://dropcam.com) [clinkle.com](http://clinkle.com) [weezer.com](http://weezer.com) [welt.de](http://welt.de) [dyson360eye.com](http://dyson360eye.com)
-
 ====
 
-[MIT License](LICENSE.md). © Julian Shapiro (http://twitter.com/shapiro).  
-[Stripe](https://stripe.com/blog/stripe-open-source-retreat) sponsors Velocity's development. [BrowserStack](browserstack.com) provides testing services.
+[MIT License](LICENSE.md). © Julian Shapiro (http://twitter.com/shapiro).
+[Stripe](https://stripe.com/blog/stripe-open-source-retreat) sponsors Velocity's development. [BrowserStack](http://www.browserstack.com/) provides testing services.
